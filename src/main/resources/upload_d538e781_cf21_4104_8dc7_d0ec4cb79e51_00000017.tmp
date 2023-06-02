@@ -1,0 +1,8 @@
+CBCM has a batch process to merge mail that is outside of package manager. How does that work?
+
+Package manager endpoints we can tie into where we can ship a package of data simiar to what we do.
+
+Mail Managment Contract
+	- CMP falls under this contract
+	- Melissa Fiedler (Core for CMP), Angel Figueroa, and Timothy Wagner are with the centralized mail portal group.
+

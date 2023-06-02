@@ -1,0 +1,37 @@
+
+UI Tasks
+	- Identify repo
+	- Complete local setups
+	- Research how the current app works
+	- Research how the current app pipeline works
+	- Figma design for the dashboard?
+	- Do we have a ux team to work with?
+
+Spring boot project setup tasks:
+	- Setup github repo
+	- Organize our code (modules, packages, config files, resources, etc.)
+	- Setup up our pom file
+	- Setup logging 
+		- How does the setup work on non-prod vs prod?
+		- Where do the logs go? How do we access them?
+	- Setup testing pyramid
+		- Do we need integration and or API tests?
+		- What testing framework/libraries do we need to setup (Junit/Mockito/REST Assured)?
+		- How will these run in our pipeline?
+	- Setup dockerfile
+	- Setup AWS account(s)
+	- Design patterns we will use
+		- Does the VA have any set guidance on this?
+	- Identify security requirements 
+		- What active directory groups will we need ?
+		- Setup IAM policy
+		- How are we handling authentication/authorization in the API (JWT) ?
+	- Setup general infrastructure (database/s3/queues)
+		- Docker compose file for developers?
+		- How do we set this up in AWS?
+	- Endpoint definition and documentation (Swagger)
+	- Setup up devops pipeline
+	- Setup up monitoring
+	- Establish PR review process
+
+	

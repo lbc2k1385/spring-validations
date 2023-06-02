@@ -31,13 +31,7 @@ public class FunRestController {
 	public FunRestController(DemoBean demoBean) {
 		this.demoBean = demoBean;
 	}
-	
-	@PostMapping("/")
-	public ResponseEntity<String> accept(@Valid @RequestBody MailPackageDTO mailPackage) {
-		return ResponseEntity.ok("Valid");
-	}
-	
-	
+		
 	@PostMapping(value = "/multiPart",
 				 consumes = {MediaType.MULTIPART_FORM_DATA_VALUE},
 				 produces = {MediaType.APPLICATION_JSON_VALUE})
@@ -54,7 +48,7 @@ public class FunRestController {
 	
 	//Can't use @RequestBody when embedding file in dto
 	@PostMapping("/multiPart/v2")
-	public ResponseEntity<String> acceptWithFiles(@Valid MailPackageDTO dto) {
+	public ResponseEntity<String> accept(@Valid MailPackageDTO dto) {
 		
 	    System.out.print(dto);
 	    
